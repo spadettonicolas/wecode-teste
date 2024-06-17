@@ -1,0 +1,38 @@
+.categorias {
+    background-color: #fff;
+    padding: 32px 0 48px 16px;
+  
+    .categorias-titulo {
+      font-size: 16px;
+      color: #1D1D1D;
+      font-weight: 400;
+      line-height: 21.79px;
+      text-align: left;
+      font-family: 'Open Sans', serif;
+    }
+  
+    .categorias-slider {
+      margin-top: 16px;
+  
+      .slick-slide {
+       padding-right: 12px;
+      }
+  
+      img{
+        border-radius: 4px;
+      }
+    }
+  
+    .categorias-item {
+  
+      .categoria-nome {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'Open Sans', serif;
+        color: #1d1d1d;
+        text-align: left;
+      }
+    }
+  }
+  

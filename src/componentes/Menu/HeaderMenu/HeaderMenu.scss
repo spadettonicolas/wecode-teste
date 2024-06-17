@@ -1,0 +1,19 @@
+.header-menu-lateral {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+  }
+  
+  .header-menu-lateral__logo {
+    display: flex;
+  }
+  
+  .header-menu-lateral__botao-fechar{
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+  
+    svg {
+      display: block;
+    }
+  }

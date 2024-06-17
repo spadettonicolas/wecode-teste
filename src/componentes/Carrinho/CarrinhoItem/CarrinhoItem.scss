@@ -1,0 +1,133 @@
+.carrinho-item {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 10px;
+  
+    .carrinho-item-container {
+      width: 100%;
+      background-color: #fff;
+      border: 1px solid #eee;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 8px;
+  
+      .item-img {
+        max-width: 100px;
+        max-height: 100px;
+        margin-right: 12px;
+        background: #f7f7f7;
+      }
+  
+      .produto-info {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+  
+        .item-infos {
+          display: flex;
+          flex-direction: column;
+  
+          .item-nome {
+            color: #1d1d1d;
+            font-family: Open Sans, var(--default-font-family);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.065px;
+            margin-bottom: 8px;
+          }
+  
+          .item-tamanho {
+            color: #8a8a8a;
+            font-family: Open Sans, var(--default-font-family);
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            margin-bottom: 19px;
+          }
+        }
+  
+        .item-valor {
+          display: flex;
+          justify-content: flex-start;
+  
+          .valor {
+            color: #1d1d1d;
+            font-family: Open Sans, var(--default-font-family);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19px;
+          }
+        }
+  
+  
+      }
+    }
+  
+    .item-quantidade{
+      width: 100%;
+      background-color: #fff;
+      border: 1px solid #eee;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px;
+      border-top-width: 0;
+  
+      .remove-item{
+        color: #8a8a8a;
+        font-family: Open Sans, var(--default-font-family);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        cursor: pointer;
+      }
+  
+      .item-quantidade-controles{
+        border: 1px solid #eee;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 93px;
+        padding: 8px 12px;
+  
+        button{
+          color: #1d1d1d;
+          font-family: Sofia Pro, var(--default-font-family);
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 16px;
+          cursor: pointer;
+        }
+  
+        span{
+          color: #1d1d1d;
+          font-family: HK Grotesk, var(--default-font-family);
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 16.803px;
+          cursor: pointer;
+        }
+  
+        .decrease-disabled{
+          color: #cdcdcd;
+        }
+      }
+    }
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

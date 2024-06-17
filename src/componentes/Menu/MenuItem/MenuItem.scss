@@ -1,0 +1,22 @@
+@import "../../../styles/variables";
+
+
+.menu-item {
+  color: var(--600, #1D1D1D);
+  font-family: 'Open Sans', var(--default-font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  margin-bottom: 24px;
+
+  &.menu-item-child {
+    font-weight: 300;
+    margin-bottom: 12px;
+  }
+
+  &.menu-item-active {
+    color: $primary-color;
+  }
+}

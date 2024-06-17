@@ -1,0 +1,92 @@
+.terceiro-banner{
+    padding: 32px 16px 32px 16px;
+    background: #f7f7f7;
+  
+    .slick-dots {
+  
+      li {
+        position: relative;
+        display: inline-block;
+        width: 4px;
+        height: 20px;
+        margin: 0 4px;
+        padding: 0;
+        cursor: pointer;
+  
+        button:before {
+          color: #8A8A8A;
+          opacity: 100;
+        }
+  
+      }
+  
+      li.slick-active button:before {
+        color: #1D1D1D;
+      }
+    }
+  
+  
+    &__header{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 24px;
+    }
+  
+  
+    &__titulo{
+      color: #1d1d1d;
+      font-family: Open Sans, var(--default-font-family);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.789px;
+    }
+  
+    &__subtitulo{
+      color: #8a8a8a;
+      font-family: Open Sans, var(--default-font-family);
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 16px;
+      font-style:italic
+    }
+  
+  }
+  
+  .terceiro-banner-slider-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+  
+    .terceiro-banner-slider-item-titulo{
+      margin-top: 16px;
+      color: #1d1d1d;
+      font-family: Open Sans, var(--default-font-family);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 11px;
+    }
+  
+    .terceiro-banner-slider-item-texto{
+      margin-top: 16px;
+      color: #8a8a8a;
+      font-family: Open Sans, var(--default-font-family);
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 16.342px;
+    }
+  
+    .terceiro-banner-slider-item-link{
+      margin-top: 16px;
+      margin-bottom: 24px;
+      color: #1d1d1d;
+      font-family: Raleway, var(--default-font-family);
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 9px;
+      cursor: pointer;
+    }
+  
+  
+  }

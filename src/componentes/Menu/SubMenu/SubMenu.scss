@@ -1,0 +1,41 @@
+.submenu {
+    .submenu-titulo  {
+      cursor: pointer;
+      color: var(--600, #1D1D1D);
+      font-family: 'Open Sans', var(--default-font-family);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+  
+    .submenu-itens {
+      list-style-type: none;
+      max-height: 0;
+      padding-left: 12px;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+      opacity: 0;
+  
+      .submenu-item {
+        padding-left: 12px;
+      }
+    }
+  
+    .submenu-itens.open {
+      max-height: 500px;
+      opacity: 1;
+      padding-left: 12px;
+      margin-bottom: 24px;
+    }
+  }
+  
+  
+  .submenu.close {
+    margin-bottom: 24px;
+  }
+  

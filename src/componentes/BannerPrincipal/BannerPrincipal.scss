@@ -1,0 +1,97 @@
+.banner-principal {
+
+   width: 100%;
+   height: 698px;
+   background: #7a221c;
+ 
+ 
+   img {
+     width: 100%;
+     position: relative;
+     max-width: 100%;
+     overflow: hidden;
+     height: 698px;
+     object-fit: cover;
+   }
+ 
+   .img1 {
+     height: 710px;
+     background: url(../../assets/banner-principal/banner-principal-1.svg) repeat center;
+     background-size: cover;
+ 
+   }
+ 
+   .img2 {
+     height: 710px;
+     background: url(../../assets/banner-principal/banner-principal-2.svg) no-repeat center;
+     background-size: cover;
+ 
+   }
+ 
+   .img3 {
+     height: 698px;
+     background: url(../../assets/banner-principal/banner-principal-3.svg) no-repeat center;
+     background-size: cover;
+ 
+   }
+ 
+   .slick-arrow .slick-next{
+     display: none;
+   }
+ 
+   .slick-dots {
+ 
+     li {
+       position: relative;
+       display: inline-block;
+       width: 4px;
+       height: 20px;
+       margin: 0 5px;
+       padding: 0;
+       cursor: pointer;
+ 
+       button:before {
+         color: #8A8A8A;
+         opacity: 100;
+       }
+ 
+     }
+ 
+     li.slick-active button:before {
+       color: white;
+     }
+ 
+   }
+ 
+   .banner-botao {
+     position: absolute;
+     bottom: 30px;
+     display: flex;
+     padding-left: 16px;
+     justify-content: center;
+ 
+ 
+     .botao{
+       padding: 12px 24px;
+       border: 1px solid #FFFFFF;
+       color: #ffffff;
+       font-family: Open Sans, var(--default-font-family);
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 19.07px;
+       text-decoration-line: underline;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background: rgba(255, 255, 255, 0.2);
+       backdrop-filter: blur(8px);
+       box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.16);
+     }
+   }
+ }
+ 
+ 
+ 
+ 
+ 
+ 

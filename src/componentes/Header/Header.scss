@@ -1,0 +1,45 @@
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+    .header-faixa-logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 16px;
+        background-color: transparent;
+        transition: background-color 0.3s ease, color 0.3s ease ;
+
+        &--scrolled{
+            background-color: white;
+        }
+        &__esquerda, &__direita {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            gap: 16px;
+          }
+
+          &__carrinho {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+          }
+
+          &__contagem-carrinho {
+            font-family: "Open Sans", serif;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: normal;
+            color: var(--0, #FFF);
+            user-select: none;
+        }
+
+        &--scrolled {
+            color: var(--0, #000000);
+          }
+
+        }
+}
